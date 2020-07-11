@@ -20,7 +20,7 @@ client.on("message", (message) => {
     ]
     
     if(message.content === "<o/") [
-        message.channel.send("\o>")
+        message.channel.send("\\o>")
     ]
 
     if(message.content === "") [
