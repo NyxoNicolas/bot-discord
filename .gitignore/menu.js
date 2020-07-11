@@ -15,8 +15,10 @@ client.on("message", (message) => {
         message.channel.send("Coucou beau gosse <3")
     ]
     
-    if(message.content === prefix + "ban") [
-        message.channel.send("Tu veux ban qui ptdr ?!")
+    if(message.content === prefix + "help") [
+        message.channel.send("Les commandes utiles du bot Nezuko :
+        test
+        test 2")
     ]
 
 });
