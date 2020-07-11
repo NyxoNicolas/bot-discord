@@ -11,8 +11,20 @@ var prefix = ("n!");
 
 client.on("message", (message) => {
 
-    if(message.content === "bonjour") [
+    if(message.content === "Bonjour") [
         message.channel.send("Coucou beau gosse <3")
+    ]
+    
+        if(message.content === "bonjour") [
+        message.channel.send("Coucou beau gosse <3")
+    ]
+    
+    if(message.content === "<o/") [
+        message.channel.send("\o>")
+    ]
+
+    if(message.content === "\o>") [
+        message.channel.send("<o/")
     ]
     
     if(message.content === prefix + "help") [
