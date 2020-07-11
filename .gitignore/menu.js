@@ -16,7 +16,7 @@ client.on("message", (message) => {
     ]
     
     if(message.content === prefix + "help") [
-        message.channel.send("**Nezuko** est un *bot* intéractif qui réagis à vos messages")
+        message.channel.send("🌹 **Nezuko** est un bot intéractif qui réagis à vos messages 🌹")
     ]
 
 });
