@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.login(process.env.TOKEN);
 client.on('ready', function(){;
-    client.user.setActivity('n!help | Nezuko la police');
+    client.user.setActivity('n!help | Nezuko ❤ ');
 
 })
 
