@@ -15,8 +15,20 @@ client.on("message", (message) => {
         message.channel.send("Coucou beau gosse <3")
     ]
     
-        if(message.content === "bonjour") [
+    if(message.content === "bonjour") [
         message.channel.send("Coucou beau gosse <3")
+    ]
+    
+    if(message.content === "Ta gueule") [
+        message.channel.send("Pas de violence, merci <3")
+    ]
+    
+    if(message.content === "Tg") [
+        message.channel.send("Pas de violence, merci <3")
+    ]
+    
+    if(message.content === "tg") [
+        message.channel.send("Pas de violence, merci <3")
     ]
     
     if(message.content === "<o/") [
