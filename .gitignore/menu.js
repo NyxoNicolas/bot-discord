@@ -16,9 +16,7 @@ client.on("message", (message) => {
     ]
     
     if(message.content === prefix + "help") [
-        message.channel.send("Les commandes utiles du bot Nezuko :
-        test
-        test 2")
+        message.channel.send("Les commandes utiles du bot Nezuko : test test 2")
     ]
 
 });
