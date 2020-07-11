@@ -23,8 +23,8 @@ client.on("message", (message) => {
         message.channel.send("\o>")
     ]
 
-    if(message.content === "\o>") [
-        message.channel.send("<o/")
+    if(message.content === "") [
+        message.channel.send("")
     ]
     
     if(message.content === prefix + "help") [
