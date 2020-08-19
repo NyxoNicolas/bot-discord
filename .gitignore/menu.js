@@ -43,4 +43,6 @@ client.on("message", (message) => {
         message.channel.send("🌹 **Nezuko** est un bot intéractif qui réagis à vos messages 🌹")
     ]
 
+client.on('guildMemberAdd', member => {
+    member.guild.channels.cache.get(config.greeting.channel).send(`${member} a rejoint le serveur. Nous sommes désormais ${member.guild.memberCount} ! 🎉`)
 });
