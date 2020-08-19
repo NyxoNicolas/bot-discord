@@ -11,6 +11,7 @@ var prefix = ("n!");
 
 client.on('guildMemberAdd', member => {
     member.guild.channels.cache.get(config.greeting.687208360294219797).send(`Bienvenue ${member} nous sommes désormais ${member.guild.memberCount} ! 🎉`)
+        member.roles.add(config.greeting.687212282266255360)
 })
           
 client.on("message", (message) => {
