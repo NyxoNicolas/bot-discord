@@ -9,6 +9,9 @@ client.on('ready', function(){;
 
 var prefix = ("n!");
 
+client.on('guildMemberAdd', member => {
+    member.guild.channels.cache.get(config.greeting.687208360294219797).send(`Bienvenue ${member} nous sommes désormais ${member.guild.memberCount} ! 🎉`);
+
 client.on("message", (message) => {
 
     if(message.content === "Bonjour") [
