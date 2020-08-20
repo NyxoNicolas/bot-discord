@@ -32,9 +32,13 @@ client.on("message", (message) => {
     ]
     
     if(message.content === "<o/") [
-        message.channel.send("\\o>")
+        message.channel.send("\\o>")  
     ]
-
+    
+    if(message.content === "Je te mange") [
+        message.channel.send("Non on est ${member.guild.memberCount} à le manger beau gosse <3")      
+    ]
+    
     if(message.content === "") [
         message.channel.send("")
     ]
