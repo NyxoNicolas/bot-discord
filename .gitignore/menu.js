@@ -39,6 +39,10 @@ client.on("message", (message) => {
         message.channel.send("Non on est **UNE CENTAINE** à le manger beau gosse <3")      
     ]
     
+    if(message.content === "ez") [
+        message.channel.send("ez ez annnnw <3")   
+    ]
+    
     if(message.content === "") [
         message.channel.send("")
     ]
