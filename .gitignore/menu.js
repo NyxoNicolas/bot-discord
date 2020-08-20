@@ -36,7 +36,7 @@ client.on("message", (message) => {
     ]
     
     if(message.content === "Je te mange") [
-        message.channel.send("Non on est ${member.guild.memberCount} à le manger beau gosse <3")      
+        message.channel.send("Non on est $(memberCount} à le manger beau gosse <3")      
     ]
     
     if(message.content === "") [
